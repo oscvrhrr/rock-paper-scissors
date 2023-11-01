@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2F243A;
+    font-family: 'reggae one';
+    color: #DDF45B;
+    min-height: 8rem;
+    font-size: 1.5rem;
+
+}
+
+body {
+    background-color: #444054;
+}
+
+h2,h3 {
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+    font-family: monospace;
+    color: #BEBBBB;
+}
+
+body p {
+    text-align: center;
+    padding: .5rem;
+}
+
+button{ 
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    background-color: #DDF45B;
+}
+
+button:hover {
+    background-color: #EFFAB3;
+}
+
+.score-board {
+    text-align: center;
+}
+
+.weapon-board {
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem 2rem;
+}
+
+.result-board {
+display: flex;
+justify-content: center;
+}

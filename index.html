@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script src="game.js"> </script>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="game.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Commissioner:wght@400;800&family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Merriweather:ital@0;1&family=Reggae+One&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+    <body>
+        <header>
+            <h1>ROCK PAPER SCISSORS</h1>
+        </header>
+        <h2>Select your weapon of war</h2>
+        <h3>Best out of 5 wins</h3>
+        <div id="score-board" class="score-board">
+            <p id="player-score">Player: 0</p>
+            <p id="computer-score">Computer: 0</p>
+        </div>
+        <div class="result-board">
+            <p id="computer-choice" style="display: inline;"></p>
+            <p id="user-choice" style="display: inline;"></p>
+            <p id="result" style="display: inline; text-align:"></p>
+        </div> 
+        <div id="weapon-board" class="weapon-board">
+            <button id="paper">Paper</button>
+            <button id="rock">Rock</button>
+            <button id="scissors">Scissors</button>
+        </div>
+    </body>
 </html>
